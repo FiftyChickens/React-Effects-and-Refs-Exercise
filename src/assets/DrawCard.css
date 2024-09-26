@@ -26,3 +26,21 @@
 .Deck {
     text-align: center;
 }
+
+.counter {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 0%;
+    left: 12%;
+}
+
+@media (max-width: 1360px) {
+    .counter {
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        top: 75%;
+        left: 12%;
+    }
+}
