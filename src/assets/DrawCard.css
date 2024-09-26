@@ -1,0 +1,28 @@
+.drawButton {
+    appearance: none;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    padding: 23px 33px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.drawButton:active {
+    padding: 20px 30px;
+    background-color: rgb(24, 24, 24);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transform: translateY(2.5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+.Deck-cardarea {
+    margin-top: 80px;
+}
+
+.Deck {
+    text-align: center;
+}
